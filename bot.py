@@ -11,7 +11,7 @@ class Bot:
         options.add_argument('lang=pt-br')
         self.driver = webdriver.Chrome(executable_path=r'./chromedriver')
 
-    def Login:
+    def Login(self):
         driver.get("https://www.promobank.com.br")
         time.sleep(30)
         iframe = driver.find_element(By.CSS_SELECTOR, "input type="text" name="emp_senha" style="-webkit-text-security: disc;" class="form-control rounded-pill bg-pb-dark-blue text-white login-input border-pb-light-blue" id="loginEmpresa" placeholder="Código da empresa" > Empresa")
